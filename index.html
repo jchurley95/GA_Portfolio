@@ -10,13 +10,13 @@
 <body>
 
     <header>
-        <h1>Joey Hurley's Portfolio</h1>
+        <h1 id="page-title">Joey Hurley's Portfolio</h1>
     </header>
 
     <main>
 
         <section id="about">
-        <h2>About Me:</h2>
+        <h2 id="about-title">About Me:</h2>
         <p>Interests:
             <ul id="interests"> 
                 <li>design</li> 
@@ -29,24 +29,30 @@
         </section>
 
         <section id="programs">
-            <h2>Programs:</h2>
-            <div id="jeopardy">
-                <a href="https://jeoparty.bitballoon.com">
-                    <button id="jeopardy-link"><img id="jeopardy-image" src="img/jeopardy_banner.png"></button>
-                </a>
-            </div>
+            <h2 id="programs-title">Programs:</h2>
+            <a href="https://jeoparty.bitballoon.com" target="_blank">
+                <img id="jeopardy-image" src="img/jeopardy_banner.png">
+            </a>
         </section>
 
     </main>
 
     <footer>
-        Check out my:
-            <img class="icon" id="github-icon" src="img/github_icon.png">
-            <img class="icon" id="linkedin-icon" src="img/linkedin_icon.png">
-            <img class="icon" id="instagram-icon" src="img/instagram_icon.png">
-            <img class="icon" id="facebook-icon" src="img/Facebook_icon.png">
+            <a href="https://github.com/jchurley95" target="_blank"><img class="icon" id="github-icon" src="img/github_icon.png"></a>
+            <a href="https://www.linkedin.com/in/joey-hurley-41b016127/" target="_blank"><img class="icon" id="linkedin-icon" src="img/linkedin_icon.png"></a>
+            <a href="https://www.instagram.com/bourbonandpowertools/" target="_blank"><img class="icon" id="instagram-icon" src="img/instagram_icon.png"></a>
+            <a href="https://www.facebook.com/vivalajoey" target="_blank"><img class="icon" id="facebook-icon" src="img/Facebook_icon.png"></a>
     </footer>
-    <h6>Made with love @ <img id="ga-icon" src="img/generalassemblylogo.png"></h6>
+    
+    <div id="made-with">Made with love @ <img id="ga-icon" src="img/generalassemblylogo.png"></div>
 
+
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+
+    
 </body>
 </html>
