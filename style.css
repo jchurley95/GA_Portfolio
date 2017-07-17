@@ -1,0 +1,15 @@
+header {
+    border: solid 2px black;
+    margin: 10px;
+    text-align: center;
+}
+
+main {
+    border: solid 2px black;
+    margin: 10px;
+}
+
+footer {
+    border: solid 2px black;
+    margin: 10px;
+}
