@@ -1,2 +1,1 @@
 var $header = $('header');
-$('#page-title').css('background-image', 'https://www.soccerbbc.com/wp-content/uploads/2017/04/bioscope-to-host-a-star-wars-marathon-the-bioscope-independent-intended-for-star-wars-banner.jpg');

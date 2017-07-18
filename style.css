@@ -11,6 +11,7 @@ body {
 img {
     opacity: 0.8;
     width: 80%;
+    height: 200px;
     border-radius: 25px;
     background-color: rgba(0,0,0,0.5);
     box-shadow: 0 0 15px 10px rgba(0,0,0,0.5);
@@ -29,10 +30,19 @@ img:hover {
 header {
     text-align: center;
     padding: 10px;
-    height: 250px;
     margin: 20px;
+    background-image: url(img/wood_background.jpg);
+    background-position: top;
+    box-shadow: 0 0 15px 10px rgba(0,0,0,0.5);
+    border-radius: 120px;
+    opacity: 1;
 }
 
+#page-title {
+    color: rgba(225,225,225,0.7);
+    font-size: 60px;
+    text-shadow: 5px 5px rgba(0,0,0,0.3);
+}
 
 main {
     margin: 20px;
@@ -70,6 +80,8 @@ main {
     border-radius: 15px;
     box-shadow: 0 0 15px 10px rgba(0,0,0,0.5);
     text-shadow: 5px 5px rgba(0,0,0,0.3);
+    height: 200px;
+    overflow-y: scroll;
 }
 
 footer {
@@ -103,17 +115,4 @@ footer {
 #ga-icon {
     height: 20px;
     width: 60px;
-}
-
-#page-title {
-    color: rgba(225,225,225,0.7);
-    font-size: 70px;
-    box-shadow: 0 0 15px 10px rgba(0,0,0,0.5);
-    border-radius: 120px;
-    background-image: url(img/wood_background.jpg);
-    opacity: 1;
-    background-position: top; 
-    padding: 40px;
-    text-shadow: 5px 5px rgba(0,0,0,0.3);
-    margin: 20px 40px;
 }
